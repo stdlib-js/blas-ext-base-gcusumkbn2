@@ -20,7 +20,7 @@ limitations under the License.
 
 # gcusumkbn2
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Calculate the cumulative sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.
 
@@ -263,8 +263,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-gcusumkbn2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-gcusumkbn2?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-gcusumkbn2.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-gcusumkbn2/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
