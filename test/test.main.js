@@ -24,7 +24,7 @@ var tape = require( 'tape' );
 var floor = require( '@stdlib/math-base-special-floor' );
 var isnan = require( '@stdlib/math-base-assert-is-nan' );
 var Float64Array = require( '@stdlib/array-float64' );
-var gcusumkbn2 = require( './../lib/gcusumkbn2.js' );
+var gcusumkbn2 = require( './../lib' );
 
 
 // TESTS //
