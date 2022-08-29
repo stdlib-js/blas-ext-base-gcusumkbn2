@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-gcusumkbn2",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Calculate the cumulative sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.",
   "license": "Apache-2.0",
   "author": {
