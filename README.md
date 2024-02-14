@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gcusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gcusumkbn2/tags). For example,
+
+```javascript
 import gcusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@v0.2.0-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@deno/mod.js';
 ```
 
 #### gcusumkbn2( N, sum, x, strideX, y, strideY )
@@ -176,7 +181,7 @@ gcusumkbn2.ndarray( N, 0.0, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import gcusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@v0.2.0-deno/mod.js';
+import gcusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@deno/mod.js';
 
 var y;
 var x;
