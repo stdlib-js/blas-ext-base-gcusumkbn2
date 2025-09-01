@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-25)
+## Unreleased (2025-09-01)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`ee80204`](https://github.com/stdlib-js/stdlib/commit/ee80204dfe9c9a6409ebd7873354371bbdbac32e) - **fix:** propagate sign to the accumulated sum _(by Athan Reines)_
 -   [`4835ebd`](https://github.com/stdlib-js/stdlib/commit/4835ebdcb112d8e6ca9d6ac9584e1e14e2e861c6) - **fix:** preserve the sign of zero _(by Athan Reines)_
 -   [`1dd8adf`](https://github.com/stdlib-js/stdlib/commit/1dd8adfd104b90f0b87cd76ce0addbbd6f723aba) - **feat:** add accessor arrays support to `blas/ext/base/gcusumkbn2` [(#5009)](https://github.com/stdlib-js/stdlib/pull/5009) _(by Muhammad Haris, Athan Reines)_
