@@ -41,32 +41,20 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/blas-ext-base-gcusumkbn2
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var gcusumkbn2 = require( '@stdlib/blas-ext-base-gcusumkbn2' );
+import gcusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@esm/index.mjs';
 ```
 
 #### gcusumkbn2( N, sum, x, strideX, y, strideY )
@@ -111,7 +99,7 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 
 // Initial arrays...
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
@@ -174,10 +162,15 @@ gcusumkbn2.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var Float64Array = require( '@stdlib/array-float64' );
-var gcusumkbn2 = require( '@stdlib/blas-ext-base-gcusumkbn2' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+import gcusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn2@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
@@ -188,6 +181,10 @@ console.log( y );
 
 gcusumkbn2( x.length, 0.0, x, 1, y, -1 );
 console.log( y );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -232,7 +229,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -299,19 +296,19 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/esm
 
 [@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/dcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-dcusumkbn2
+[@stdlib/blas/ext/base/dcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-dcusumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas-ext-base-gcusum
+[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas-ext-base-gcusum/tree/esm
 
-[@stdlib/blas/ext/base/gcusumkbn]: https://github.com/stdlib-js/blas-ext-base-gcusumkbn
+[@stdlib/blas/ext/base/gcusumkbn]: https://github.com/stdlib-js/blas-ext-base-gcusumkbn/tree/esm
 
-[@stdlib/blas/ext/base/scusumkbn2]: https://github.com/stdlib-js/blas-ext-base-scusumkbn2
+[@stdlib/blas/ext/base/scusumkbn2]: https://github.com/stdlib-js/blas-ext-base-scusumkbn2/tree/esm
 
 <!-- </related-links> -->
 
